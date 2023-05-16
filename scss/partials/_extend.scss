@@ -1,0 +1,13 @@
+.btn {
+    color: black;
+    background-color: green;
+    text-align: center;
+    text-decoration: none;
+    border: solid;
+}
+
+.btn-form {
+    @extend .btn;
+    padding: 0 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

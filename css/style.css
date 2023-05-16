@@ -1,67 +1,89 @@
 * {
-    font-family: 'DM Sans', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.navbar-brand img {
-    height: 64px;
+  font-family: "DM Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .footer {
-    background-color: black;
+  background-color: black;
 }
 
-.container-galeria {
-    display: grid;
-    grid-template-rows: repeat(4, 200px);
-    grid-template-columns: repeat(3, 300px);
-    row-gap: 10px;
-    column-gap: 10px;
+header {
+  background-color: black;
 }
 
-img {
-    width: 100%;
-    height: 100%;
+.encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.encabezado .navbar-brand img {
+  height: 4rem;
+}
+.encabezado .navbar-brand img .color-barra {
+  background-color: black;
 }
 
-.img-1 {
-    grid-column: 1 / 3;
-    grid-row: 1 / 3;
-}
-
-.img-12 {
-    grid-row: 4 / 5;
-    grid-column: 1 / 2;
-}
-
-.img-13 {
-    grid-row: 3 / 5;
-    grid-column: 2 / 4;
+.fondo {
+  background-color: black;
 }
 
 .section-galeria {
-    color: white;
-    background-color: black;
-    
-    }
+  color: white;
+  background-color: black;
+}
+.section-galeria .container-galeria {
+  display: grid;
+  grid-template-rows: repeat(4, 200px);
+  grid-template-columns: repeat(3, 300px);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.section-galeria .container-galeria img {
+  width: 100%;
+  height: 100%;
+}
+.section-galeria .container-galeria .img-1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+.section-galeria .container-galeria .img-12 {
+  grid-row: 4/5;
+  grid-column: 1/2;
+}
+.section-galeria .container-galeria .img-13 {
+  grid-row: 3/5;
+  grid-column: 2/4;
+}
 
-   .fondo {
-    background-color: black;
-   }
+.container-nosotros {
+  display: grid;
+  grid-template-rows: 300px 300px;
+  grid-template-columns: 400px 400px;
+  row-gap: 10px;
+  column-gap: 10px;
+  padding: 20px;
+}
 
-   .color-barra {
-    background-color: black;
-   }
+.btn, .btn-form {
+  color: black;
+  background-color: green;
+  text-align: center;
+  text-decoration: none;
+  border: solid;
+}
 
-   .container-nosotros {
-    display: grid;
-    grid-template-rows: 300px 300px;
-    grid-template-columns: 400px 400px;
-    row-gap: 10px;
-    column-gap: 10px;
-    padding: 20px    
-   }
+.btn-form {
+  padding: 0 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 
- 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

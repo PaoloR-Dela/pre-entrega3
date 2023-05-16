@@ -1,0 +1,21 @@
+header {
+    background-color: $color-principal;    
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .navbar-brand img {
+        height: 4rem;
+
+        .color-barra {
+            background-color: $color-principal;
+           }        
+    }
+}
+
+
+
